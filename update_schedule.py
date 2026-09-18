@@ -202,6 +202,44 @@ def fetch_data_from_api() -> list:
             flat_lessons.append(lesson)
 
     return flat_lessons
+def fetch_data_from_api() -> list:
+    token = os.getenv("ITMO_TOKEN")
+    raw_json = None
+
+    if token:
+        logging.info("Инициализация запроса к API ИТМО...")
+        headers = {
+            **HEADERS,
+            "Authorization": f"Bearer {token}",
+        }
+        # Укажи актуальный эндпоинт API ИТМО
+        url = "https://api.schedule.itmo.su/api/v3/schedule/weekly"
+
+        try:
+            response = requests.get(url, headers=headers, timeout=15)
+            response.raise_for_status()
+            raw_json = response.json()
+            logging.info("Данные успешно получены из API ИТМО.")
+        except Exception as e:
+            logging.error(f"Ошибка при запросе к API: {e}")
+
+    if not raw_json and os.path.exists("json_data.json"):
+        logging.info("Загрузка локального файла json_data.json...")
+        with open("json_data.json", "r", encoding="utf-8") as f:
+            raw_json = json.load(f)
+
+    if not raw_json:
+        return []
+
+    flat_lessons = []
+    # Обработка структуры ответа API
+    for day in raw_json.get("data", []):
+        date_str = day.get("date")
+        for lesson in day.get("lessons", []):
+            lesson["date"] = date_str
+            flat_lessons.append(lesson)
+
+    return flat_lessons
 
 
 def main():
