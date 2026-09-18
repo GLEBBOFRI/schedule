@@ -1,0 +1,32 @@
+name: Auto Sync ITMO Schedule
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Запуск каждые 6 часов
+  workflow_dispatch:      # Кнопка для ручного запуска
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Проверка кода
+        uses: actions/checkout@v3
+
+      - name: Установка Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Установка зависимостей
+        run: pip install -r requirements.txt
+
+      - name: Запуск скрипта обновления
+        run: python update_schedule.py
+
+      - name: Сохранение изменений в репозиторий
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add schedule_cache.db itmo_schedule.ics
+          git commit -m "Auto-update schedule .ics" || exit 0
+          git push
