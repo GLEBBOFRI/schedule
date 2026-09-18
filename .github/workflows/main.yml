@@ -2,18 +2,18 @@ name: Auto Sync ITMO Schedule
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Запуск каждые 6 часов
-  workflow_dispatch:      # Кнопка для ручного запуска
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build-and-sync:
     runs-on: ubuntu-latest
     steps:
       - name: Проверка кода
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Установка Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
