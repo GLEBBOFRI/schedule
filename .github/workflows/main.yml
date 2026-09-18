@@ -2,10 +2,9 @@ name: Auto Sync ITMO Schedule
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+    - cron: '0 */6 * * *'  # Запуск каждые 6 часов
+  workflow_dispatch:        # Ручной запуск из вкладки Actions
 
-# Явно задаем права для GITHUB_TOKEN на уровне всего воркфлоу
 permissions:
   contents: write
 
@@ -16,7 +15,7 @@ jobs:
       - name: Проверка кода
         uses: actions/checkout@v4
         with:
-          persist-credentials: true  # Сохраняет учетные данные токена для git push
+          persist-credentials: true
 
       - name: Установка Python
         uses: actions/setup-python@v5
@@ -27,6 +26,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Запуск скрипта обновления
+        env:
+          ITMO_TOKEN: ${{ secrets.ITMO_TOKEN }}  # Проброс токена из Secrets
         run: python update_schedule.py
 
       - name: Сохранение изменений в репозиторий
@@ -34,5 +35,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add schedule_cache.db itmo_schedule.ics || true
-          git commit -m "Auto-update schedule .ics" || exit 0
+          git commit -m "Auto-update schedule .ics [skip ci]" || exit 0
           git push origin HEAD:${{ github.ref_name }}
