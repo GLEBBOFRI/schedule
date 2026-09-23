@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  secrets: write            # Дает доступ утилите gh на обновление Secrets
 
 jobs:
   build-and-sync:
@@ -29,7 +28,9 @@ jobs:
       - name: Запуск скрипта обновления
         env:
           ITMO_REFRESH_TOKEN: ${{ secrets.ITMO_REFRESH_TOKEN }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Токен для записи секретов через CLI
+          # Для записи секретов стандартный GITHUB_TOKEN не подходят по правам.
+          # Используется PAT_TOKEN, если он создан, иначе скрипт пропустит запись в GitHub.
+          GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
         run: python update_schedule.py
 
       - name: Сохранение изменений в репозиторий
