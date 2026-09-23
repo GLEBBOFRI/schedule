@@ -1,23 +1,27 @@
-from datetime import datetime
-import json
-import logging
 import os
+import json
 import sqlite3
-import subprocess
-from icalendar import Calendar, Event
+import logging
 import requests
+import subprocess
+from datetime import datetime
+from icalendar import Calendar, Event
 
 DB_FILE = "schedule_cache.db"
 ICS_FILE = "itmo_schedule.ics"
 
 # Эндпоинты API ИТМО и Keycloak
 TOKEN_URL = "https://id.itmo.ru/auth/realms/itmo/protocol/openid-connect/token"
-API_URL = "https://api.schedule.itmo.su/api/v3/schedule/schedule/personal"
+# Основной и резервные эндпоинты расписания
+API_URLS = [
+    "https://my.itmo.ru/api/schedule/schedule/personal",
+    "https://api.schedule.itmo.su/api/v1/person/schedule/schedule",
+]
 CLIENT_ID = "student-personal-cabinet"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
     "Origin": "https://my.itmo.ru",
     "Referer": "https://my.itmo.ru/",
 }
@@ -28,7 +32,7 @@ logging.basicConfig(
 
 
 def get_fresh_access_token() -> str:
-    """Получает Access Token и обновляет Refresh Token в GitHub Secrets."""
+    """Получает Access Token через Refresh Token."""
     refresh_token = os.getenv("ITMO_REFRESH_TOKEN")
     if not refresh_token:
         logging.error("Переменная окружения ITMO_REFRESH_TOKEN не найдена!")
@@ -37,7 +41,7 @@ def get_fresh_access_token() -> str:
     payload = {
         "client_id": CLIENT_ID,
         "grant_type": "refresh_token",
-        "refresh_token": refresh_token,
+        "refresh_token": refresh_token.strip(),
     }
 
     try:
@@ -48,31 +52,20 @@ def get_fresh_access_token() -> str:
         new_access_token = data.get("access_token")
         new_refresh_token = data.get("refresh_token")
 
-        # Если скрипт выполняется в GitHub Actions, пробуем перезаписать обновленный Secret
+        # Пробуем обновить секрет через GH CLI, если есть права (PAT)
         if new_refresh_token and os.getenv("GITHUB_ACTIONS") == "true":
             try:
                 result = subprocess.run(
-                    [
-                        "gh",
-                        "secret",
-                        "set",
-                        "ITMO_REFRESH_TOKEN",
-                        "--body",
-                        new_refresh_token,
-                    ],
+                    ["gh", "secret", "set", "ITMO_REFRESH_TOKEN", "--body", new_refresh_token],
                     capture_output=True,
-                    text=True,
+                    text=True
                 )
                 if result.returncode == 0:
-                    logging.info(
-                        "Секрет ITMO_REFRESH_TOKEN успешно обновлен в GitHub Secrets!"
-                    )
+                    logging.info("Секрет ITMO_REFRESH_TOKEN успешно обновлен в GitHub Secrets!")
                 else:
-                    logging.warning(
-                        f"Не удалось обновить Secret в GitHub (нужен Personal Access Token с правами 'secrets'): {result.stderr.strip()}"
-                    )
+                    logging.info("Пропуск обновления GitHub Secret (стандартный GITHUB_TOKEN не имеет прав 'secrets', это нормально).")
             except Exception as err:
-                logging.warning(f"Ошибка при попытке вызова gh cli: {err}")
+                logging.debug(f"GH CLI skipped: {err}")
 
         return new_access_token
 
@@ -82,7 +75,6 @@ def get_fresh_access_token() -> str:
 
 
 class ScheduleManager:
-
     def __init__(self, db_path: str):
         self.db_path = db_path
         self._init_db()
@@ -113,15 +105,15 @@ class ScheduleManager:
             cursor = conn.cursor()
 
             for lesson in lessons_data:
-                pair_id = lesson.get("pair_id")
+                pair_id = lesson.get("pair_id") or lesson.get("id")
                 if not pair_id:
                     continue
 
-                subject = lesson.get("subject", "Занятие")
-                work_type = lesson.get("work_type", "")
+                subject = lesson.get("subject") or lesson.get("title") or "Занятие"
+                work_type = lesson.get("work_type") or lesson.get("type") or ""
                 date_str = lesson.get("date")
-                start_time = lesson.get("time_start")
-                end_time = lesson.get("time_end")
+                start_time = lesson.get("time_start") or lesson.get("start_time")
+                end_time = lesson.get("time_end") or lesson.get("end_time")
 
                 if not (date_str and start_time and end_time):
                     continue
@@ -137,8 +129,8 @@ class ScheduleManager:
                     else lesson.get("format", "Дистанционно")
                 )
 
-                teacher = lesson.get("teacher_name", "")
-                zoom_url = lesson.get("zoom_url", "")
+                teacher = lesson.get("teacher_name") or lesson.get("teacher") or ""
+                zoom_url = lesson.get("zoom_url") or lesson.get("link") or ""
 
                 cursor.execute(
                     "SELECT subject, start_dt, end_dt, location, zoom_url FROM lessons WHERE pair_id = ?",
@@ -213,8 +205,11 @@ class ScheduleManager:
                     zoom_url,
                 ) = row
 
-                dt_start = datetime.strptime(start_dt_str, "%Y-%m-%d %H:%M")
-                dt_end = datetime.strptime(end_dt_str, "%Y-%m-%d %H:%M")
+                try:
+                    dt_start = datetime.strptime(start_dt_str, "%Y-%m-%d %H:%M")
+                    dt_end = datetime.strptime(end_dt_str, "%Y-%m-%d %H:%M")
+                except ValueError:
+                    continue
 
                 event = Event()
                 event.add(
@@ -233,7 +228,6 @@ class ScheduleManager:
                 event.add("description", "\n".join(desc))
 
                 event.add("uid", f"pair-{pair_id}@itmo.ru")
-
                 cal.add_component(event)
 
         with open(output_filename, "wb") as f:
@@ -251,13 +245,18 @@ def fetch_data_from_api() -> list:
             "Authorization": f"Bearer {access_token}",
         }
 
-        try:
-            response = requests.get(API_URL, headers=headers, timeout=15)
-            response.raise_for_status()
-            raw_json = response.json()
-            logging.info("Данные успешно получены из API ИТМО.")
-        except Exception as e:
-            logging.error(f"Ошибка при запросе к API: {e}")
+        for url in API_URLS:
+            try:
+                logging.info(f"Пробуем эндпоинт: {url}")
+                response = requests.get(url, headers=headers, timeout=15)
+                if response.status_code == 200:
+                    raw_json = response.json()
+                    logging.info("Данные успешно получены из API ИТМО!")
+                    break
+                else:
+                    logging.warning(f"Эндпоинт {url} вернул статус {response.status_code}")
+            except Exception as e:
+                logging.error(f"Ошибка при запросе к {url}: {e}")
 
     if not raw_json and os.path.exists("json_data.json"):
         logging.info("Загрузка локального файла json_data.json...")
@@ -268,11 +267,22 @@ def fetch_data_from_api() -> list:
         return []
 
     flat_lessons = []
-    for day in raw_json.get("data", []):
-        date_str = day.get("date")
-        for lesson in day.get("lessons", []):
-            lesson["date"] = date_str
-            flat_lessons.append(lesson)
+    # Парсим ответ от my.itmo.ru API
+    data_content = raw_json.get("data") if isinstance(raw_json, dict) else raw_json
+
+    if isinstance(data_content, list):
+        for day in data_content:
+            date_str = day.get("date")
+            for lesson in day.get("lessons", []):
+                lesson["date"] = date_str
+                flat_lessons.append(lesson)
+    elif isinstance(data_content, dict):
+        # Если структура ответа представляет собой объект с днями
+        for date_str, lessons in data_content.items():
+            if isinstance(lessons, list):
+                for lesson in lessons:
+                    lesson["date"] = date_str
+                    flat_lessons.append(lesson)
 
     return flat_lessons
 
@@ -289,7 +299,7 @@ def main():
 
     if has_changes or not os.path.exists(ICS_FILE):
         manager.generate_ics(ICS_FILE)
-        logging.info("Календарь успешно обновлен.")
+        logging.info("Календарь и база данных успешно обновлены.")
 
 
 if __name__ == "__main__":
