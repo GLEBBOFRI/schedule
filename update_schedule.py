@@ -1,22 +1,16 @@
-import os
+from datetime import datetime, timedelta
 import json
-import sqlite3
 import logging
-import requests
+import os
+import sqlite3
 import subprocess
-from datetime import datetime
 from icalendar import Calendar, Event
+import requests
 
 DB_FILE = "schedule_cache.db"
 ICS_FILE = "itmo_schedule.ics"
 
-# Эндпоинты API ИТМО и Keycloak
 TOKEN_URL = "https://id.itmo.ru/auth/realms/itmo/protocol/openid-connect/token"
-# Основной и резервные эндпоинты расписания
-API_URLS = [
-    "https://my.itmo.ru/api/schedule/schedule/personal",
-    "https://api.schedule.itmo.su/api/v1/person/schedule/schedule",
-]
 CLIENT_ID = "student-personal-cabinet"
 
 HEADERS = {
@@ -52,18 +46,22 @@ def get_fresh_access_token() -> str:
         new_access_token = data.get("access_token")
         new_refresh_token = data.get("refresh_token")
 
-        # Пробуем обновить секрет через GH CLI, если есть права (PAT)
         if new_refresh_token and os.getenv("GITHUB_ACTIONS") == "true":
             try:
                 result = subprocess.run(
-                    ["gh", "secret", "set", "ITMO_REFRESH_TOKEN", "--body", new_refresh_token],
+                    [
+                        "gh",
+                        "secret",
+                        "set",
+                        "ITMO_REFRESH_TOKEN",
+                        "--body",
+                        new_refresh_token,
+                    ],
                     capture_output=True,
-                    text=True
+                    text=True,
                 )
                 if result.returncode == 0:
-                    logging.info("Секрет ITMO_REFRESH_TOKEN успешно обновлен в GitHub Secrets!")
-                else:
-                    logging.info("Пропуск обновления GitHub Secret (стандартный GITHUB_TOKEN не имеет прав 'secrets', это нормально).")
+                    logging.info("Секрет ITMO_REFRESH_TOKEN обновлен в Secrets.")
             except Exception as err:
                 logging.debug(f"GH CLI skipped: {err}")
 
@@ -75,6 +73,7 @@ def get_fresh_access_token() -> str:
 
 
 class ScheduleManager:
+
     def __init__(self, db_path: str):
         self.db_path = db_path
         self._init_db()
@@ -109,10 +108,14 @@ class ScheduleManager:
                 if not pair_id:
                     continue
 
-                subject = lesson.get("subject") or lesson.get("title") or "Занятие"
+                subject = (
+                    lesson.get("subject") or lesson.get("title") or "Занятие"
+                )
                 work_type = lesson.get("work_type") or lesson.get("type") or ""
                 date_str = lesson.get("date")
-                start_time = lesson.get("time_start") or lesson.get("start_time")
+                start_time = lesson.get("time_start") or lesson.get(
+                    "start_time"
+                )
                 end_time = lesson.get("time_end") or lesson.get("end_time")
 
                 if not (date_str and start_time and end_time):
@@ -129,7 +132,9 @@ class ScheduleManager:
                     else lesson.get("format", "Дистанционно")
                 )
 
-                teacher = lesson.get("teacher_name") or lesson.get("teacher") or ""
+                teacher = (
+                    lesson.get("teacher_name") or lesson.get("teacher") or ""
+                )
                 zoom_url = lesson.get("zoom_url") or lesson.get("link") or ""
 
                 cursor.execute(
@@ -206,7 +211,9 @@ class ScheduleManager:
                 ) = row
 
                 try:
-                    dt_start = datetime.strptime(start_dt_str, "%Y-%m-%d %H:%M")
+                    dt_start = datetime.strptime(
+                        start_dt_str, "%Y-%m-%d %H:%M"
+                    )
                     dt_end = datetime.strptime(end_dt_str, "%Y-%m-%d %H:%M")
                 except ValueError:
                     continue
@@ -236,39 +243,59 @@ class ScheduleManager:
 
 def fetch_data_from_api() -> list:
     access_token = get_fresh_access_token()
-    raw_json = None
-
-    if access_token:
-        logging.info("Инициализация запроса к API ИТМО...")
-        headers = {
-            **HEADERS,
-            "Authorization": f"Bearer {access_token}",
-        }
-
-        for url in API_URLS:
-            try:
-                logging.info(f"Пробуем эндпоинт: {url}")
-                response = requests.get(url, headers=headers, timeout=15)
-                if response.status_code == 200:
-                    raw_json = response.json()
-                    logging.info("Данные успешно получены из API ИТМО!")
-                    break
-                else:
-                    logging.warning(f"Эндпоинт {url} вернул статус {response.status_code}")
-            except Exception as e:
-                logging.error(f"Ошибка при запросе к {url}: {e}")
-
-    if not raw_json and os.path.exists("json_data.json"):
-        logging.info("Загрузка локального файла json_data.json...")
-        with open("json_data.json", "r", encoding="utf-8") as f:
-            raw_json = json.load(f)
-
-    if not raw_json:
+    if not access_token:
+        if os.path.exists("json_data.json"):
+            logging.info("Загрузка локального файла json_data.json...")
+            with open("json_data.json", "r", encoding="utf-8") as f:
+                return parse_json_payload(json.load(f))
         return []
 
+    headers = {
+        **HEADERS,
+        "Authorization": f"Bearer {access_token}",
+    }
+
+    all_lessons = []
+    today = datetime.now()
+
+    # Запрашиваем пошагово по 7 дней на 8 недель вперёд и 2 недели назад
+    # Это позволяет забрать всё расписание, даже если API ограничено одной исторической неделей
+    for week_offset in range(-2, 8):
+        start_date = (
+            today + timedelta(days=week_offset * 7)
+        ).strftime("%Y-%m-%d")
+        end_date = (
+            today + timedelta(days=(week_offset + 1) * 7 - 1)
+        ).strftime("%Y-%m-%d")
+
+        urls = [
+            f"https://my.itmo.ru/api/schedule/schedule/personal?date_start={start_date}&date_end={end_date}",
+            f"https://api.schedule.itmo.su/api/v1/person/schedule/schedule?date_start={start_date}&date_end={end_date}",
+        ]
+
+        for url in urls:
+            try:
+                response = requests.get(url, headers=headers, timeout=10)
+                if response.status_code == 200:
+                    data = response.json()
+                    parsed = parse_json_payload(data)
+                    if parsed:
+                        all_lessons.extend(parsed)
+                        logging.info(
+                            f"Получено {len(parsed)} занятий на период {start_date} - {end_date}"
+                        )
+                        break
+            except Exception as e:
+                logging.error(f"Ошибка запроса {url}: {e}")
+
+    return all_lessons
+
+
+def parse_json_payload(raw_json) -> list:
     flat_lessons = []
-    # Парсим ответ от my.itmo.ru API
-    data_content = raw_json.get("data") if isinstance(raw_json, dict) else raw_json
+    data_content = (
+        raw_json.get("data") if isinstance(raw_json, dict) else raw_json
+    )
 
     if isinstance(data_content, list):
         for day in data_content:
@@ -277,7 +304,6 @@ def fetch_data_from_api() -> list:
                 lesson["date"] = date_str
                 flat_lessons.append(lesson)
     elif isinstance(data_content, dict):
-        # Если структура ответа представляет собой объект с днями
         for date_str, lessons in data_content.items():
             if isinstance(lessons, list):
                 for lesson in lessons:
