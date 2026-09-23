@@ -48,10 +48,10 @@ def get_fresh_access_token() -> str:
         new_access_token = data.get("access_token")
         new_refresh_token = data.get("refresh_token")
 
-        # Если скрипт выполняется в GitHub Actions, перезаписываем обновленный Secret
+        # Если скрипт выполняется в GitHub Actions, пробуем перезаписать обновленный Secret
         if new_refresh_token and os.getenv("GITHUB_ACTIONS") == "true":
             try:
-                subprocess.run(
+                result = subprocess.run(
                     [
                         "gh",
                         "secret",
@@ -60,17 +60,19 @@ def get_fresh_access_token() -> str:
                         "--body",
                         new_refresh_token,
                     ],
-                    check=True,
                     capture_output=True,
                     text=True,
                 )
-                logging.info(
-                    "Секрет ITMO_REFRESH_TOKEN успешно обновлен в GitHub Secrets!"
-                )
-            except subprocess.CalledProcessError as err:
-                logging.error(
-                    f"Не удалось обновить Secret в GitHub: {err.stderr}"
-                )
+                if result.returncode == 0:
+                    logging.info(
+                        "Секрет ITMO_REFRESH_TOKEN успешно обновлен в GitHub Secrets!"
+                    )
+                else:
+                    logging.warning(
+                        f"Не удалось обновить Secret в GitHub (нужен Personal Access Token с правами 'secrets'): {result.stderr.strip()}"
+                    )
+            except Exception as err:
+                logging.warning(f"Ошибка при попытке вызова gh cli: {err}")
 
         return new_access_token
 
