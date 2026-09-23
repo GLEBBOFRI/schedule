@@ -4,7 +4,7 @@ import logging
 import os
 import sqlite3
 import subprocess
-from icalendar import Calendar, Event
+from icalendar import Calendar, Event, Alarm
 import requests
 
 DB_FILE = "schedule_cache.db"
@@ -198,6 +198,14 @@ class ScheduleManager:
             )
             rows = cursor.fetchall()
 
+            # Тайминги для уведомлений (минуты/дни до начала)
+            alarms_config = [
+                (timedelta(days=-1), "Завтра пара: "),
+                (timedelta(hours=-2), "Через 2 часа: "),
+                (timedelta(hours=-1), "Через 1 час: "),
+                (timedelta(minutes=-15), "Через 15 минут: "),
+            ]
+
             for row in rows:
                 (
                     pair_id,
@@ -235,6 +243,15 @@ class ScheduleManager:
                 event.add("description", "\n".join(desc))
 
                 event.add("uid", f"pair-{pair_id}@itmo.ru")
+
+                # Добавление 4-х алармов к событию
+                for trigger_time, prefix in alarms_config:
+                    alarm = Alarm()
+                    alarm.add("action", "DISPLAY")
+                    alarm.add("description", f"{prefix}{subject}")
+                    alarm.add("trigger", trigger_time)
+                    event.add_component(alarm)
+
                 cal.add_component(event)
 
         with open(output_filename, "wb") as f:
@@ -258,8 +275,6 @@ def fetch_data_from_api() -> list:
     all_lessons = []
     today = datetime.now()
 
-    # Запрашиваем пошагово по 7 дней на 8 недель вперёд и 2 недели назад
-    # Это позволяет забрать всё расписание, даже если API ограничено одной исторической неделей
     for week_offset in range(-2, 8):
         start_date = (
             today + timedelta(days=week_offset * 7)
@@ -321,11 +336,10 @@ def main():
         logging.warning("Нет данных для синхронизации.")
         return
 
-    has_changes = manager.sync_lessons(lessons)
-
-    if has_changes or not os.path.exists(ICS_FILE):
-        manager.generate_ics(ICS_FILE)
-        logging.info("Календарь и база данных успешно обновлены.")
+    # Пересобираем .ics файл
+    manager.sync_lessons(lessons)
+    manager.generate_ics(ICS_FILE)
+    logging.info("Календарь и база данных успешно обновлены.")
 
 
 if __name__ == "__main__":
