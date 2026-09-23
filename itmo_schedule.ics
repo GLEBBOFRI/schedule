@@ -10,6 +10,26 @@ UID:pair-47198400223@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лабораторные занятия)
@@ -19,6 +39,26 @@ UID:pair-47198400230@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4210
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -28,6 +68,26 @@ UID:pair-47198400469@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лабораторные занятия)
@@ -37,6 +97,26 @@ UID:pair-47198400476@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4303
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -46,6 +126,26 @@ UID:pair-47198400757@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Практические занятия)
@@ -55,6 +155,26 @@ UID:pair-47198400764@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. А\, ауд. 2432
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -64,6 +184,26 @@ UID:pair-47198401081@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лабораторные занятия)
@@ -73,6 +213,26 @@ UID:pair-47198401088@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4210
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -82,6 +242,26 @@ UID:pair-47198401404@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лабораторные занятия)
@@ -91,6 +271,26 @@ UID:pair-47198401413@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4303
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -100,6 +300,26 @@ UID:pair-47198401729@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Практические занятия)
@@ -109,6 +329,26 @@ UID:pair-47198401738@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. А\, ауд. 2432
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -118,6 +358,26 @@ UID:pair-47198402062@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лабораторные занятия)
@@ -127,6 +387,26 @@ UID:pair-47198402071@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4210
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -136,6 +416,26 @@ UID:pair-47198402387@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лабораторные занятия)
@@ -145,6 +445,26 @@ UID:pair-47198402396@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4303
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -154,6 +474,26 @@ UID:pair-47198402707@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Практические занятия)
@@ -163,6 +503,26 @@ UID:pair-47198402716@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. А\, ауд. 2432
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
@@ -172,6 +532,26 @@ UID:pair-47198403033@itmo.ru
 DESCRIPTION:Преподаватель: Хвастунов Николай 
  Николаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Физика (Практические занятия)
@@ -181,6 +561,26 @@ UID:pair-47198403042@itmo.ru
 DESCRIPTION:Преподаватель: Боярский Кирилл Ки
  риллович
 LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4210
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Физика
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Физика
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Физика
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Физика
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лекции)
@@ -190,6 +590,30 @@ UID:pair-48789571066@itmo.ru
 DESCRIPTION:Преподаватель: Логинов Иван Павло
  вич\nСсылка: https://itmo.ktalk.ru/flow_93588
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лекции)
@@ -199,6 +623,30 @@ UID:pair-48789575273@itmo.ru
 DESCRIPTION:Преподаватель: Логинов Иван Павло
  вич\nСсылка: https://itmo.ktalk.ru/flow_93588
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лекции)
@@ -208,6 +656,30 @@ UID:pair-48789579415@itmo.ru
 DESCRIPTION:Преподаватель: Логинов Иван Павло
  вич\nСсылка: https://itmo.ktalk.ru/flow_93588
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лекции)
@@ -217,6 +689,30 @@ UID:pair-48789583304@itmo.ru
 DESCRIPTION:Преподаватель: Логинов Иван Павло
  вич\nСсылка: https://itmo.ktalk.ru/flow_93588
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -226,6 +722,30 @@ UID:pair-48794707935@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -235,6 +755,30 @@ UID:pair-48794709912@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -244,6 +788,30 @@ UID:pair-48794711867@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -253,6 +821,30 @@ UID:pair-48794713911@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -262,6 +854,30 @@ UID:pair-48794716055@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -271,6 +887,30 @@ UID:pair-48794718242@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -280,6 +920,30 @@ UID:pair-48794720310@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -289,6 +953,30 @@ UID:pair-48794722463@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
@@ -298,6 +986,30 @@ UID:pair-48794726431@itmo.ru
 DESCRIPTION:Преподаватель: Пенской Александр 
  Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лабораторн
@@ -308,6 +1020,30 @@ UID:pair-48795566652@itmo.ru
 DESCRIPTION:Преподаватель: Горбачев Ярослав Г
  еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лабораторн
@@ -318,6 +1054,30 @@ UID:pair-48795570603@itmo.ru
 DESCRIPTION:Преподаватель: Горбачев Ярослав Г
  еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лабораторн
@@ -328,6 +1088,30 @@ UID:pair-48795574935@itmo.ru
 DESCRIPTION:Преподаватель: Горбачев Ярослав Г
  еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лабораторн
@@ -338,6 +1122,30 @@ UID:pair-48795579171@itmo.ru
 DESCRIPTION:Преподаватель: Горбачев Ярослав Г
  еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лабораторн
@@ -348,6 +1156,30 @@ UID:pair-48795583149@itmo.ru
 DESCRIPTION:Преподаватель: Горбачев Ярослав Г
  еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лекции)
@@ -357,6 +1189,27 @@ UID:pair-48796424440@itmo.ru
 DESCRIPTION:Преподаватель: Егошин Алексей Вас
  ильевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лекции)
@@ -366,6 +1219,27 @@ UID:pair-48796428446@itmo.ru
 DESCRIPTION:Преподаватель: Егошин Алексей Вас
  ильевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лекции)
@@ -375,6 +1249,27 @@ UID:pair-48796432816@itmo.ru
 DESCRIPTION:Преподаватель: Егошин Алексей Вас
  ильевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лекции)
@@ -384,6 +1279,27 @@ UID:pair-48796437090@itmo.ru
 DESCRIPTION:Преподаватель: Егошин Алексей Вас
  ильевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лекции)
@@ -393,6 +1309,27 @@ UID:pair-48796441080@itmo.ru
 DESCRIPTION:Преподаватель: Егошин Алексей Вас
  ильевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -403,6 +1340,27 @@ UID:pair-48797283679@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -413,6 +1371,27 @@ UID:pair-48797283727@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -423,6 +1402,27 @@ UID:pair-48797287858@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -433,6 +1433,27 @@ UID:pair-48797287912@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -443,6 +1464,27 @@ UID:pair-48797292174@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -453,6 +1495,27 @@ UID:pair-48797292226@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -463,6 +1526,27 @@ UID:pair-48797296476@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -473,6 +1557,27 @@ UID:pair-48797296532@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -483,6 +1588,27 @@ UID:pair-48797300511@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
@@ -493,6 +1619,27 @@ UID:pair-48797300561@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Практические з
@@ -504,6 +1651,27 @@ DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
  /2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Лекции)
@@ -513,6 +1681,27 @@ UID:pair-48798140050@itmo.ru
 DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Практические з
@@ -524,6 +1713,27 @@ DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
  /2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Лекции)
@@ -533,6 +1743,27 @@ UID:pair-48798144115@itmo.ru
 DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Практические з
@@ -544,6 +1775,27 @@ DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
  /2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Лекции)
@@ -553,6 +1805,27 @@ UID:pair-48798148512@itmo.ru
 DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Практические з
@@ -564,6 +1837,27 @@ DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
  /2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Лекции)
@@ -573,6 +1867,27 @@ UID:pair-48798152797@itmo.ru
 DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Практические з
@@ -584,6 +1899,27 @@ DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
  /2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Теория вероятностей (Лекции)
@@ -593,6 +1929,27 @@ UID:pair-48798156835@itmo.ru
 DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -603,6 +1960,30 @@ UID:pair-49076936502@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -613,6 +1994,30 @@ UID:pair-49076936578@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -623,6 +2028,30 @@ UID:pair-49076939159@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -633,6 +2062,30 @@ UID:pair-49076939239@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -643,6 +2096,30 @@ UID:pair-49076941782@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -653,6 +2130,30 @@ UID:pair-49076941857@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -663,6 +2164,30 @@ UID:pair-49076944594@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -673,6 +2198,30 @@ UID:pair-49076944678@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -683,6 +2232,30 @@ UID:pair-49076947441@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -693,6 +2266,30 @@ UID:pair-49076947521@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -703,6 +2300,30 @@ UID:pair-49076950338@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -713,6 +2334,30 @@ UID:pair-49076950425@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -723,6 +2368,30 @@ UID:pair-49076953180@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -733,6 +2402,30 @@ UID:pair-49076953260@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -743,6 +2436,30 @@ UID:pair-49076956087@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -753,6 +2470,30 @@ UID:pair-49076956171@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -763,6 +2504,30 @@ UID:pair-49076958596@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -773,6 +2538,30 @@ UID:pair-49076958672@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -783,6 +2572,30 @@ UID:pair-49076961459@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:English B1.1 / Английский язык B1.1 (Практич
@@ -793,6 +2606,30 @@ UID:pair-49076961539@itmo.ru
 DESCRIPTION:Преподаватель: Филатов Андрей Сер
  геевич
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -802,6 +2639,29 @@ UID:pair-49185411112@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -812,6 +2672,29 @@ UID:pair-49185411224@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -821,6 +2704,29 @@ UID:pair-49185414373@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -831,6 +2737,29 @@ UID:pair-49185414482@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -840,6 +2769,29 @@ UID:pair-49185417586@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -850,6 +2802,29 @@ UID:pair-49185417696@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -859,6 +2834,29 @@ UID:pair-49185421069@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -869,6 +2867,29 @@ UID:pair-49185421176@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -878,6 +2899,29 @@ UID:pair-49185424518@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -888,6 +2932,29 @@ UID:pair-49185424628@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -897,6 +2964,29 @@ UID:pair-49185428002@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -907,6 +2997,29 @@ UID:pair-49185428112@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -916,6 +3029,29 @@ UID:pair-49185431465@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -926,6 +3062,29 @@ UID:pair-49185431579@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -935,6 +3094,29 @@ UID:pair-49185434997@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -945,6 +3127,29 @@ UID:pair-49185435099@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -954,6 +3159,29 @@ UID:pair-49185438079@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -964,6 +3192,29 @@ UID:pair-49185438185@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
@@ -973,6 +3224,29 @@ UID:pair-49185441565@itmo.ru
 DESCRIPTION:Преподаватель: Кольцова Татьяна Б
  орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Математический анализ (Практически
@@ -983,6 +3257,29 @@ UID:pair-49185441665@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -993,6 +3290,30 @@ UID:pair-49543627960@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1003,6 +3324,30 @@ UID:pair-49543628058@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1013,6 +3358,30 @@ UID:pair-49543636048@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1023,6 +3392,30 @@ UID:pair-49543636145@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1033,6 +3426,30 @@ UID:pair-49543645011@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1043,6 +3460,30 @@ UID:pair-49543645112@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1053,6 +3494,30 @@ UID:pair-49543653838@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1063,6 +3528,30 @@ UID:pair-49543653954@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1073,6 +3562,30 @@ UID:pair-49543662204@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
@@ -1083,6 +3596,30 @@ UID:pair-49543662300@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1093,6 +3630,30 @@ UID:pair-49725862386@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1103,6 +3664,30 @@ UID:pair-49725871126@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1113,6 +3698,30 @@ UID:pair-49725880466@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1123,6 +3732,30 @@ UID:pair-49725889697@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1133,6 +3766,30 @@ UID:pair-49725898296@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1143,6 +3800,30 @@ UID:pair-49727650922@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1153,6 +3834,30 @@ UID:pair-49727659717@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1163,6 +3868,30 @@ UID:pair-49727669103@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1173,6 +3902,30 @@ UID:pair-49727678379@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
@@ -1183,6 +3936,30 @@ UID:pair-49727687001@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Языки программирования (Лекции)
@@ -1192,5 +3969,29 @@ UID:pair-51355895607@itmo.ru
 DESCRIPTION:Преподаватель: Логинов Иван Павло
  вич\nСсылка: https://itmo.ktalk.ru/flow_93588
 LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
 END:VEVENT
 END:VCALENDAR
