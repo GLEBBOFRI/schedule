@@ -4,6 +4,24 @@ PRODID:-//ITMO Schedule Auto-Sync//ru//
 X-WR-CALNAME:Расписание ИТМО
 BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
+DTSTART:20260910T153000
+DTEND:20260910T170000
+UID:pair-47198400223@itmo.ru
+DESCRIPTION:Преподаватель: Хвастунов Николай 
+ Николаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лабораторные занятия)
+DTSTART:20260910T171000
+DTEND:20260910T184000
+UID:pair-47198400230@itmo.ru
+DESCRIPTION:Преподаватель: Боярский Кирилл Ки
+ риллович
+LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4210
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лекции)
 DTSTART:20260917T153000
 DTEND:20260917T170000
 UID:pair-47198400469@itmo.ru
@@ -57,12 +75,156 @@ DESCRIPTION:Преподаватель: Боярский Кирилл Ки
 LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4210
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Физика (Лекции)
+DTSTART:20261008T153000
+DTEND:20261008T170000
+UID:pair-47198401404@itmo.ru
+DESCRIPTION:Преподаватель: Хвастунов Николай 
+ Николаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лабораторные занятия)
+DTSTART:20261008T171000
+DTEND:20261008T184000
+UID:pair-47198401413@itmo.ru
+DESCRIPTION:Преподаватель: Боярский Кирилл Ки
+ риллович
+LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лекции)
+DTSTART:20261015T153000
+DTEND:20261015T170000
+UID:pair-47198401729@itmo.ru
+DESCRIPTION:Преподаватель: Хвастунов Николай 
+ Николаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Практические занятия)
+DTSTART:20261015T171000
+DTEND:20261015T184000
+UID:pair-47198401738@itmo.ru
+DESCRIPTION:Преподаватель: Боярский Кирилл Ки
+ риллович
+LOCATION:ул.Ломоносова\, д.9\, лит. А\, ауд. 2432
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лекции)
+DTSTART:20261022T153000
+DTEND:20261022T170000
+UID:pair-47198402062@itmo.ru
+DESCRIPTION:Преподаватель: Хвастунов Николай 
+ Николаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лабораторные занятия)
+DTSTART:20261022T171000
+DTEND:20261022T184000
+UID:pair-47198402071@itmo.ru
+DESCRIPTION:Преподаватель: Боярский Кирилл Ки
+ риллович
+LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4210
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лекции)
+DTSTART:20261029T153000
+DTEND:20261029T170000
+UID:pair-47198402387@itmo.ru
+DESCRIPTION:Преподаватель: Хвастунов Николай 
+ Николаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лабораторные занятия)
+DTSTART:20261029T171000
+DTEND:20261029T184000
+UID:pair-47198402396@itmo.ru
+DESCRIPTION:Преподаватель: Боярский Кирилл Ки
+ риллович
+LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4303
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лекции)
+DTSTART:20261105T153000
+DTEND:20261105T170000
+UID:pair-47198402707@itmo.ru
+DESCRIPTION:Преподаватель: Хвастунов Николай 
+ Николаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Практические занятия)
+DTSTART:20261105T171000
+DTEND:20261105T184000
+UID:pair-47198402716@itmo.ru
+DESCRIPTION:Преподаватель: Боярский Кирилл Ки
+ риллович
+LOCATION:ул.Ломоносова\, д.9\, лит. А\, ауд. 2432
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Лекции)
+DTSTART:20261112T153000
+DTEND:20261112T170000
+UID:pair-47198403033@itmo.ru
+DESCRIPTION:Преподаватель: Хвастунов Николай 
+ Николаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Физика (Практические занятия)
+DTSTART:20261112T171000
+DTEND:20261112T184000
+UID:pair-47198403042@itmo.ru
+DESCRIPTION:Преподаватель: Боярский Кирилл Ки
+ риллович
+LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. 4210
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Языки программирования (Лекции)
 DTSTART:20260928T171000
 DTEND:20260928T184000
 UID:pair-48789571066@itmo.ru
 DESCRIPTION:Преподаватель: Логинов Иван Павло
  вич\nСсылка: https://itmo.ktalk.ru/flow_93588
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лекции)
+DTSTART:20261012T171000
+DTEND:20261012T184000
+UID:pair-48789575273@itmo.ru
+DESCRIPTION:Преподаватель: Логинов Иван Павло
+ вич\nСсылка: https://itmo.ktalk.ru/flow_93588
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лекции)
+DTSTART:20261026T171000
+DTEND:20261026T184000
+UID:pair-48789579415@itmo.ru
+DESCRIPTION:Преподаватель: Логинов Иван Павло
+ вич\nСсылка: https://itmo.ktalk.ru/flow_93588
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лекции)
+DTSTART:20261109T171000
+DTEND:20261109T184000
+UID:pair-48789583304@itmo.ru
+DESCRIPTION:Преподаватель: Логинов Иван Павло
+ вич\nСсылка: https://itmo.ktalk.ru/flow_93588
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лекции)
+DTSTART:20260909T095000
+DTEND:20260909T112000
+UID:pair-48794707935@itmo.ru
+DESCRIPTION:Преподаватель: Пенской Александр 
+ Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
 LOCATION:Дистанционный 
 END:VEVENT
 BEGIN:VEVENT
@@ -93,6 +255,51 @@ DESCRIPTION:Преподаватель: Пенской Александр
 LOCATION:Дистанционный 
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лекции)
+DTSTART:20261007T095000
+DTEND:20261007T112000
+UID:pair-48794716055@itmo.ru
+DESCRIPTION:Преподаватель: Пенской Александр 
+ Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лекции)
+DTSTART:20261014T095000
+DTEND:20261014T112000
+UID:pair-48794718242@itmo.ru
+DESCRIPTION:Преподаватель: Пенской Александр 
+ Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лекции)
+DTSTART:20261021T095000
+DTEND:20261021T112000
+UID:pair-48794720310@itmo.ru
+DESCRIPTION:Преподаватель: Пенской Александр 
+ Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лекции)
+DTSTART:20261028T095000
+DTEND:20261028T112000
+UID:pair-48794722463@itmo.ru
+DESCRIPTION:Преподаватель: Пенской Александр 
+ Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лекции)
+DTSTART:20261111T095000
+DTEND:20261111T112000
+UID:pair-48794726431@itmo.ru
+DESCRIPTION:Преподаватель: Пенской Александр 
+ Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лабораторн
  ые занятия)
 DTSTART:20260915T153000
@@ -108,6 +315,36 @@ SUMMARY:Архитектура компьютера (Лабораторн
 DTSTART:20260929T153000
 DTEND:20260929T170000
 UID:pair-48795570603@itmo.ru
+DESCRIPTION:Преподаватель: Горбачев Ярослав Г
+ еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лабораторн
+ ые занятия)
+DTSTART:20261013T153000
+DTEND:20261013T170000
+UID:pair-48795574935@itmo.ru
+DESCRIPTION:Преподаватель: Горбачев Ярослав Г
+ еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лабораторн
+ ые занятия)
+DTSTART:20261027T153000
+DTEND:20261027T170000
+UID:pair-48795579171@itmo.ru
+DESCRIPTION:Преподаватель: Горбачев Ярослав Г
+ еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лабораторн
+ ые занятия)
+DTSTART:20261110T153000
+DTEND:20261110T170000
+UID:pair-48795583149@itmo.ru
 DESCRIPTION:Преподаватель: Горбачев Ярослав Г
  еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
 LOCATION:Дистанционный 
@@ -131,6 +368,33 @@ DESCRIPTION:Преподаватель: Егошин Алексей Вас
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лекции)
+DTSTART:20261014T153000
+DTEND:20261014T170000
+UID:pair-48796432816@itmo.ru
+DESCRIPTION:Преподаватель: Егошин Алексей Вас
+ ильевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лекции)
+DTSTART:20261028T153000
+DTEND:20261028T170000
+UID:pair-48796437090@itmo.ru
+DESCRIPTION:Преподаватель: Егошин Алексей Вас
+ ильевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лекции)
+DTSTART:20261111T153000
+DTEND:20261111T170000
+UID:pair-48796441080@itmo.ru
+DESCRIPTION:Преподаватель: Егошин Алексей Вас
+ ильевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
  занятия)
 DTSTART:20260922T153000
@@ -146,6 +410,86 @@ SUMMARY:Веб-программирование (Лабораторные
 DTSTART:20260922T171000
 DTEND:20260922T184000
 UID:pair-48797283727@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261006T153000
+DTEND:20261006T170000
+UID:pair-48797287858@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261006T171000
+DTEND:20261006T184000
+UID:pair-48797287912@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261020T153000
+DTEND:20261020T170000
+UID:pair-48797292174@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261020T171000
+DTEND:20261020T184000
+UID:pair-48797292226@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261103T153000
+DTEND:20261103T170000
+UID:pair-48797296476@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261103T171000
+DTEND:20261103T184000
+UID:pair-48797296532@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261117T153000
+DTEND:20261117T170000
+UID:pair-48797300511@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261117T171000
+DTEND:20261117T184000
+UID:pair-48797300561@itmo.ru
 DESCRIPTION:Преподаватель: Стригалев Никита С
  ергеевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
@@ -186,6 +530,66 @@ SUMMARY:Теория вероятностей (Лекции)
 DTSTART:20261001T113000
 DTEND:20261001T130000
 UID:pair-48798144115@itmo.ru
+DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
+ иколаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей (Практические з
+ анятия)
+DTSTART:20261014T133000
+DTEND:20261014T150000
+UID:pair-48798148130@itmo.ru
+DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
+ иколаевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
+ /2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей (Лекции)
+DTSTART:20261015T113000
+DTEND:20261015T130000
+UID:pair-48798148512@itmo.ru
+DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
+ иколаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей (Практические з
+ анятия)
+DTSTART:20261028T133000
+DTEND:20261028T150000
+UID:pair-48798152436@itmo.ru
+DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
+ иколаевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
+ /2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей (Лекции)
+DTSTART:20261029T113000
+DTEND:20261029T130000
+UID:pair-48798152797@itmo.ru
+DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
+ иколаевич
+LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей (Практические з
+ анятия)
+DTSTART:20261111T133000
+DTEND:20261111T150000
+UID:pair-48798156456@itmo.ru
+DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
+ иколаевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
+ /2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей (Лекции)
+DTSTART:20261112T113000
+DTEND:20261112T130000
+UID:pair-48798156835@itmo.ru
 DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
@@ -271,6 +675,126 @@ DESCRIPTION:Преподаватель: Филатов Андрей Сер
 LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261009T081000
+DTEND:20261009T094000
+UID:pair-49076947441@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261009T095000
+DTEND:20261009T112000
+UID:pair-49076947521@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261016T081000
+DTEND:20261016T094000
+UID:pair-49076950338@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261016T095000
+DTEND:20261016T112000
+UID:pair-49076950425@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261023T081000
+DTEND:20261023T094000
+UID:pair-49076953180@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261023T095000
+DTEND:20261023T112000
+UID:pair-49076953260@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261030T081000
+DTEND:20261030T094000
+UID:pair-49076956087@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261030T095000
+DTEND:20261030T112000
+UID:pair-49076956171@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261106T081000
+DTEND:20261106T094000
+UID:pair-49076958596@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261106T095000
+DTEND:20261106T112000
+UID:pair-49076958672@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261113T081000
+DTEND:20261113T094000
+UID:pair-49076961459@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261113T095000
+DTEND:20261113T112000
+UID:pair-49076961539@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
 DTSTART:20260914T081000
 DTEND:20260914T094000
@@ -328,6 +852,139 @@ DESCRIPTION:Преподаватель: Зарина Ольга Андре
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Математический анализ (Лекции)
+DTSTART:20261005T081000
+DTEND:20261005T094000
+UID:pair-49185421069@itmo.ru
+DESCRIPTION:Преподаватель: Кольцова Татьяна Б
+ орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Практически
+ е занятия)
+DTSTART:20261005T095000
+DTEND:20261005T112000
+UID:pair-49185421176@itmo.ru
+DESCRIPTION:Преподаватель: Зарина Ольга Андре
+ евна
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Лекции)
+DTSTART:20261012T081000
+DTEND:20261012T094000
+UID:pair-49185424518@itmo.ru
+DESCRIPTION:Преподаватель: Кольцова Татьяна Б
+ орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Практически
+ е занятия)
+DTSTART:20261012T095000
+DTEND:20261012T112000
+UID:pair-49185424628@itmo.ru
+DESCRIPTION:Преподаватель: Зарина Ольга Андре
+ евна
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Лекции)
+DTSTART:20261019T081000
+DTEND:20261019T094000
+UID:pair-49185428002@itmo.ru
+DESCRIPTION:Преподаватель: Кольцова Татьяна Б
+ орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Практически
+ е занятия)
+DTSTART:20261019T095000
+DTEND:20261019T112000
+UID:pair-49185428112@itmo.ru
+DESCRIPTION:Преподаватель: Зарина Ольга Андре
+ евна
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Лекции)
+DTSTART:20261026T081000
+DTEND:20261026T094000
+UID:pair-49185431465@itmo.ru
+DESCRIPTION:Преподаватель: Кольцова Татьяна Б
+ орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Практически
+ е занятия)
+DTSTART:20261026T095000
+DTEND:20261026T112000
+UID:pair-49185431579@itmo.ru
+DESCRIPTION:Преподаватель: Зарина Ольга Андре
+ евна
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Лекции)
+DTSTART:20261102T081000
+DTEND:20261102T094000
+UID:pair-49185434997@itmo.ru
+DESCRIPTION:Преподаватель: Кольцова Татьяна Б
+ орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Практически
+ е занятия)
+DTSTART:20261102T095000
+DTEND:20261102T112000
+UID:pair-49185435099@itmo.ru
+DESCRIPTION:Преподаватель: Зарина Ольга Андре
+ евна
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Лекции)
+DTSTART:20261109T081000
+DTEND:20261109T094000
+UID:pair-49185438079@itmo.ru
+DESCRIPTION:Преподаватель: Кольцова Татьяна Б
+ орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Практически
+ е занятия)
+DTSTART:20261109T095000
+DTEND:20261109T112000
+UID:pair-49185438185@itmo.ru
+DESCRIPTION:Преподаватель: Зарина Ольга Андре
+ евна
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Лекции)
+DTSTART:20261116T081000
+DTEND:20261116T094000
+UID:pair-49185441565@itmo.ru
+DESCRIPTION:Преподаватель: Кольцова Татьяна Б
+ орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
+LOCATION:Дистанционный 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Практически
+ е занятия)
+DTSTART:20261116T095000
+DTEND:20261116T112000
+UID:pair-49185441665@itmo.ru
+DESCRIPTION:Преподаватель: Зарина Ольга Андре
+ евна
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Языки программирования (Лабораторн
  ые занятия)
 DTSTART:20260915T081000
@@ -368,6 +1025,66 @@ DESCRIPTION:Преподаватель: Кореньков Юрий Дми
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Языки программирования (Лабораторн
+ ые занятия)
+DTSTART:20261013T081000
+DTEND:20261013T094000
+UID:pair-49543645011@itmo.ru
+DESCRIPTION:Преподаватель: Кореньков Юрий Дми
+ триевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лабораторн
+ ые занятия)
+DTSTART:20261013T095000
+DTEND:20261013T112000
+UID:pair-49543645112@itmo.ru
+DESCRIPTION:Преподаватель: Кореньков Юрий Дми
+ триевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лабораторн
+ ые занятия)
+DTSTART:20261027T081000
+DTEND:20261027T094000
+UID:pair-49543653838@itmo.ru
+DESCRIPTION:Преподаватель: Кореньков Юрий Дми
+ триевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лабораторн
+ ые занятия)
+DTSTART:20261027T095000
+DTEND:20261027T112000
+UID:pair-49543653954@itmo.ru
+DESCRIPTION:Преподаватель: Кореньков Юрий Дми
+ триевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лабораторн
+ ые занятия)
+DTSTART:20261110T081000
+DTEND:20261110T094000
+UID:pair-49543662204@itmo.ru
+DESCRIPTION:Преподаватель: Кореньков Юрий Дми
+ триевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лабораторн
+ ые занятия)
+DTSTART:20261110T095000
+DTEND:20261110T112000
+UID:pair-49543662300@itmo.ru
+DESCRIPTION:Преподаватель: Кореньков Юрий Дми
+ триевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
  нимательство (Лекции)
 DTSTART:20260919T133000
@@ -389,6 +1106,36 @@ LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
+ нимательство (Лекции)
+DTSTART:20261017T133000
+DTEND:20261017T150000
+UID:pair-49725880466@itmo.ru
+DESCRIPTION:Преподаватель: Антипов Антон Алек
+ сандрович
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в технологическое предпри
+ нимательство (Лекции)
+DTSTART:20261031T133000
+DTEND:20261031T150000
+UID:pair-49725889697@itmo.ru
+DESCRIPTION:Преподаватель: Антипов Антон Алек
+ сандрович
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в технологическое предпри
+ нимательство (Лекции)
+DTSTART:20261114T133000
+DTEND:20261114T150000
+UID:pair-49725898296@itmo.ru
+DESCRIPTION:Преподаватель: Антипов Антон Алек
+ сандрович
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в технологическое предпри
  нимательство (Практические занятия)
 DTSTART:20260919T153000
 DTEND:20260919T170000
@@ -403,6 +1150,36 @@ SUMMARY:Введение в технологическое предпри
 DTSTART:20261003T153000
 DTEND:20261003T170000
 UID:pair-49727659717@itmo.ru
+DESCRIPTION:Преподаватель: Антипов Антон Алек
+ сандрович
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в технологическое предпри
+ нимательство (Практические занятия)
+DTSTART:20261017T153000
+DTEND:20261017T170000
+UID:pair-49727669103@itmo.ru
+DESCRIPTION:Преподаватель: Антипов Антон Алек
+ сандрович
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в технологическое предпри
+ нимательство (Практические занятия)
+DTSTART:20261031T153000
+DTEND:20261031T170000
+UID:pair-49727678379@itmo.ru
+DESCRIPTION:Преподаватель: Антипов Антон Алек
+ сандрович
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в технологическое предпри
+ нимательство (Практические занятия)
+DTSTART:20261114T153000
+DTEND:20261114T170000
+UID:pair-49727687001@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
