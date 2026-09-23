@@ -3,23 +3,80 @@ import json
 import logging
 import os
 import sqlite3
+import subprocess
 from icalendar import Calendar, Event
 import requests
 
 DB_FILE = "schedule_cache.db"
 ICS_FILE = "itmo_schedule.ics"
 
-# Замените URL на ваш рабочий эндпоинт APEX / ISU
-API_URL = "https://isu.ifmo.ru/pls/apex/wwv_flow.show"
+# Эндпоинты API ИТМО и Keycloak
+TOKEN_URL = "https://id.itmo.ru/auth/realms/itmo/protocol/openid-connect/token"
+API_URL = "https://api.schedule.itmo.su/api/v3/schedule/schedule/personal"
+CLIENT_ID = "student-personal-cabinet"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
     "Accept": "application/json",
+    "Origin": "https://my.itmo.ru",
+    "Referer": "https://my.itmo.ru/",
 }
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
+
+
+def get_fresh_access_token() -> str:
+    """Получает Access Token и обновляет Refresh Token в GitHub Secrets."""
+    refresh_token = os.getenv("ITMO_REFRESH_TOKEN")
+    if not refresh_token:
+        logging.error("Переменная окружения ITMO_REFRESH_TOKEN не найдена!")
+        return None
+
+    payload = {
+        "client_id": CLIENT_ID,
+        "grant_type": "refresh_token",
+        "refresh_token": refresh_token,
+    }
+
+    try:
+        response = requests.post(TOKEN_URL, data=payload, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+
+        new_access_token = data.get("access_token")
+        new_refresh_token = data.get("refresh_token")
+
+        # Если скрипт выполняется в GitHub Actions, перезаписываем обновленный Secret
+        if new_refresh_token and os.getenv("GITHUB_ACTIONS") == "true":
+            try:
+                subprocess.run(
+                    [
+                        "gh",
+                        "secret",
+                        "set",
+                        "ITMO_REFRESH_TOKEN",
+                        "--body",
+                        new_refresh_token,
+                    ],
+                    check=True,
+                    capture_output=True,
+                    text=True,
+                )
+                logging.info(
+                    "Секрет ITMO_REFRESH_TOKEN успешно обновлен в GitHub Secrets!"
+                )
+            except subprocess.CalledProcessError as err:
+                logging.error(
+                    f"Не удалось обновить Secret в GitHub: {err.stderr}"
+                )
+
+        return new_access_token
+
+    except Exception as e:
+        logging.error(f"Не удалось обновить токен через Keycloak: {e}")
+        return None
 
 
 class ScheduleManager:
@@ -154,9 +211,7 @@ class ScheduleManager:
                     zoom_url,
                 ) = row
 
-                dt_start = datetime.strptime(
-                    start_dt_str, "%Y-%m-%d %H:%M"
-                )
+                dt_start = datetime.strptime(start_dt_str, "%Y-%m-%d %H:%M")
                 dt_end = datetime.strptime(end_dt_str, "%Y-%m-%d %H:%M")
 
                 event = Event()
@@ -184,39 +239,18 @@ class ScheduleManager:
 
 
 def fetch_data_from_api() -> list:
-    # Здесь отправляется запрос к API или читается файл с ответом
-    # response = requests.get(API_URL, headers=HEADERS, params={...})
-    # raw_json = response.json()
-
-    if os.path.exists("json_data.json"):
-        with open("json_data.json", "r", encoding="utf-8") as f:
-            raw_json = json.load(f)
-    else:
-        return []
-
-    flat_lessons = []
-    for day in raw_json.get("data", []):
-        date_str = day.get("date")
-        for lesson in day.get("lessons", []):
-            lesson["date"] = date_str
-            flat_lessons.append(lesson)
-
-    return flat_lessons
-def fetch_data_from_api() -> list:
-    token = os.getenv("ITMO_TOKEN")
+    access_token = get_fresh_access_token()
     raw_json = None
 
-    if token:
+    if access_token:
         logging.info("Инициализация запроса к API ИТМО...")
         headers = {
             **HEADERS,
-            "Authorization": f"Bearer {token}",
+            "Authorization": f"Bearer {access_token}",
         }
-        # Укажи актуальный эндпоинт API ИТМО
-        url = "https://api.schedule.itmo.su/api/v3/schedule/weekly"
 
         try:
-            response = requests.get(url, headers=headers, timeout=15)
+            response = requests.get(API_URL, headers=headers, timeout=15)
             response.raise_for_status()
             raw_json = response.json()
             logging.info("Данные успешно получены из API ИТМО.")
@@ -232,7 +266,6 @@ def fetch_data_from_api() -> list:
         return []
 
     flat_lessons = []
-    # Обработка структуры ответа API
     for day in raw_json.get("data", []):
         date_str = day.get("date")
         for lesson in day.get("lessons", []):
