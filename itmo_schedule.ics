@@ -1012,6 +1012,39 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лекции)
+DTSTART:20261118T095000
+DTEND:20261118T112000
+UID:pair-48794728566@itmo.ru
+DESCRIPTION:Преподаватель: Пенской Александр 
+ Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
+LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лабораторн
  ые занятия)
 DTSTART:20260915T153000
