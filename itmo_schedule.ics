@@ -2723,6 +2723,74 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261120T081000
+DTEND:20261120T094000
+UID:pair-49076964297@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261120T095000
+DTEND:20261120T112000
+UID:pair-49076964369@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
 DTSTART:20260914T081000
 DTEND:20260914T094000
