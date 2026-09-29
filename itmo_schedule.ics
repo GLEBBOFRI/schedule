@@ -1453,6 +1453,39 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Языки программирования (Лекции)
+DTSTART:20261123T171000
+DTEND:20261123T184000
+UID:pair-48789587504@itmo.ru
+DESCRIPTION:Преподаватель: Логинов Иван Павло
+ вич\nСсылка: https://itmo.ktalk.ru/flow_93588
+LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лекции)
 DTSTART:20260909T095000
 DTEND:20260909T112000
@@ -4093,6 +4126,71 @@ SUMMARY:Математический анализ (Практически
 DTSTART:20261116T095000
 DTEND:20261116T112000
 UID:pair-49185441665@itmo.ru
+DESCRIPTION:Преподаватель: Зарина Ольга Андре
+ евна
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Лекции)
+DTSTART:20261123T081000
+DTEND:20261123T094000
+UID:pair-49185444934@itmo.ru
+DESCRIPTION:Преподаватель: Кольцова Татьяна Б
+ орисовна\nСсылка: https://itmo.ktalk.ru/flow_95729
+LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Математический анали
+ з
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Математический анали
+ з
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Математический анализ
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Математический ана
+ лиз
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Математический анализ (Практически
+ е занятия)
+DTSTART:20261123T095000
+DTEND:20261123T112000
+UID:pair-49185445035@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
  евна
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
