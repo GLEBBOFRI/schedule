@@ -1986,6 +1986,40 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лабораторн
+ ые занятия)
+DTSTART:20261124T153000
+DTEND:20261124T170000
+UID:pair-48795587433@itmo.ru
+DESCRIPTION:Преподаватель: Горбачев Ярослав Г
+ еоргиевич\nСсылка: https://itmo.ktalk.ru/flow_93737
+LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лекции)
 DTSTART:20260916T153000
 DTEND:20260916T170000
@@ -4530,6 +4564,74 @@ SUMMARY:Языки программирования (Лабораторн
 DTSTART:20261110T095000
 DTEND:20261110T112000
 UID:pair-49543662300@itmo.ru
+DESCRIPTION:Преподаватель: Кореньков Юрий Дми
+ триевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лабораторн
+ ые занятия)
+DTSTART:20261124T081000
+DTEND:20261124T094000
+UID:pair-49543670833@itmo.ru
+DESCRIPTION:Преподаватель: Кореньков Юрий Дми
+ триевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Языки программирован
+ ия
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Языки программирован
+ ия
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Языки программировани
+ я
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Языки программиров
+ ания
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Языки программирования (Лабораторн
+ ые занятия)
+DTSTART:20261124T095000
+DTEND:20261124T112000
+UID:pair-49543670924@itmo.ru
 DESCRIPTION:Преподаватель: Кореньков Юрий Дми
  триевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1327
