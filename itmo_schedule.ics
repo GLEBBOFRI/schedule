@@ -2055,7 +2055,7 @@ DTSTART:20260930T153000
 DTEND:20260930T170000
 UID:pair-48796428446@itmo.ru
 DESCRIPTION:Преподаватель: Егошин Алексей Вас
- ильевич
+ ильевич\nСсылка: https://itmo.ktalk.ru/flow_93568
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
 BEGIN:VALARM
 ACTION:DISPLAY
