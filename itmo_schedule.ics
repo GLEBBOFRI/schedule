@@ -1816,6 +1816,39 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Архитектура компьютера (Лекции)
+DTSTART:20261125T095000
+DTEND:20261125T112000
+UID:pair-48794730716@itmo.ru
+DESCRIPTION:Преподаватель: Пенской Александр 
+ Владимирович\nСсылка: https://itmo.ktalk.ru/flow_93724
+LOCATION:Дистанционный 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Архитектура компьюте
+ ра
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Архитектура компьюте
+ ра
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Архитектура компьютер
+ а
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Архитектура компью
+ тера
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Архитектура компьютера (Лабораторн
  ые занятия)
 DTSTART:20260915T153000
@@ -2144,6 +2177,36 @@ SUMMARY:Веб-программирование (Лекции)
 DTSTART:20261111T153000
 DTEND:20261111T170000
 UID:pair-48796441080@itmo.ru
+DESCRIPTION:Преподаватель: Егошин Алексей Вас
+ ильевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лекции)
+DTSTART:20261125T153000
+DTEND:20261125T170000
+UID:pair-48796445399@itmo.ru
 DESCRIPTION:Преподаватель: Егошин Алексей Вас
  ильевич
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1404
@@ -2767,6 +2830,38 @@ UID:pair-48798156835@itmo.ru
 DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
  иколаевич
 LOCATION:ул.Ломоносова\, д.9\, лит. М\, ауд. 1124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Теория вероятностей
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Теория вероятностей
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Теория вероятностей
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Теория вероятносте
+ й
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Теория вероятностей (Практические з
+ анятия)
+DTSTART:20261125T133000
+DTEND:20261125T150000
+UID:pair-48798160806@itmo.ru
+DESCRIPTION:Преподаватель: Кудашов Вячеслав Н
+ иколаевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2306
+ /2
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Завтра пара: Теория вероятностей
