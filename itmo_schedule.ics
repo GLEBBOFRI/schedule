@@ -5083,6 +5083,40 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
+ нимательство (Лекции)
+DTSTART:20261128T133000
+DTEND:20261128T150000
+UID:pair-49725907291@itmo.ru
+DESCRIPTION:Преподаватель: Антипов Антон Алек
+ сандрович
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2337
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в технологическое предпри
  нимательство (Практические занятия)
 DTSTART:20260919T153000
 DTEND:20260919T170000
@@ -5223,6 +5257,40 @@ SUMMARY:Введение в технологическое предпри
 DTSTART:20261114T153000
 DTEND:20261114T170000
 UID:pair-49727687001@itmo.ru
+DESCRIPTION:Преподаватель: Антипов Антон Алек
+ сандрович
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Введение в технологи
+ ческое предпринимательство
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Введение в технологич
+ еское предпринимательство
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Введение в технолог
+ ическое предпринимательство
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Введение в технологическое предпри
+ нимательство (Практические занятия)
+DTSTART:20261128T153000
+DTEND:20261128T170000
+UID:pair-49727696039@itmo.ru
 DESCRIPTION:Преподаватель: Антипов Антон Алек
  сандрович
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1410
