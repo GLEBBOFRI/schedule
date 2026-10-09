@@ -4240,7 +4240,7 @@ DTSTART:20261012T095000
 DTEND:20261012T112000
 UID:pair-49185424628@itmo.ru
 DESCRIPTION:Преподаватель: Зарина Ольга Андре
- евна
+ евна\nСсылка: https://itmo.ktalk.ru/flow_95731
 LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2305
 BEGIN:VALARM
 ACTION:DISPLAY
