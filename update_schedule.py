@@ -5,6 +5,7 @@ import logging
 import os
 import sqlite3
 import subprocess
+import time
 from icalendar import Calendar, Event, Alarm
 import requests
 
@@ -16,7 +17,6 @@ CLIENT_ID = "student-personal-cabinet"
 
 API_URLS = [
     "https://my.itmo.ru/api/schedule/schedule/personal",
-    "https://api.schedule.itmo.su/api/v1/person/schedule/schedule",
 ]
 
 HEADERS = {
@@ -85,7 +85,7 @@ def get_fresh_access_token() -> str | None:
     }
 
     try:
-        response = requests.post(TOKEN_URL, data=payload, timeout=15)
+        response = requests.post(TOKEN_URL, data=payload, timeout=20)
         if response.status_code == 400:
             logging.error(
                 "Keycloak вернул 400 Bad Request: refresh-токен недействителен или протух! "
@@ -154,7 +154,7 @@ class ScheduleManager:
         Синхронизирует расписание с базой данных SQLite:
         - Добавляет новые и обновляет изменившиеся пары.
         - Наглухо вырезает из базы отменённые пары и те, которые исчезли из API
-          в пределах синхронизируемого диапазона дат [range_start_dt, range_end_dt].
+          в пределах успешно полученного диапазона дат [range_start_dt, range_end_dt].
         """
         has_changes = False
         active_pair_ids = set()
@@ -377,57 +377,81 @@ def parse_json_payload(raw_json) -> list:
     return flat_lessons
 
 
-def fetch_data_from_api(start_date: datetime, end_date: datetime) -> list:
-    """Запрашивает расписание из API ИТМО в диапазоне дат [start_date, end_date]."""
+def sync_date_range(manager: ScheduleManager, start_date: datetime, end_date: datetime) -> bool:
+    """
+    Запрашивает расписание чанками по 14 дней и синхронизирует с базой.
+    Безопасность: удаление отменённых пар происходит ТОЛЬКО для тех чанков,
+    которые успешно ответили 200 OK. При сетевых ошибках данные не стираются!
+    """
     access_token = get_fresh_access_token()
     if not access_token:
         if os.path.exists("json_data.json"):
             logging.info("Используем локальный json_data.json для тестирования...")
             with open("json_data.json", "r", encoding="utf-8") as f:
-                return parse_json_payload(json.load(f))
-        return []
+                lessons = parse_json_payload(json.load(f))
+                return manager.sync_lessons(
+                    lessons,
+                    f"{start_date.strftime('%Y-%m-%d')} 00:00",
+                    f"{end_date.strftime('%Y-%m-%d')} 23:59",
+                )
+        return False
 
     headers = {
         **HEADERS,
         "Authorization": f"Bearer {access_token}",
     }
 
-    all_lessons = []
+    any_changes = False
     chunk_days = 14
     curr_start = start_date
 
-    while curr_start < end_date:
+    while curr_start <= end_date:
         curr_end = min(curr_start + timedelta(days=chunk_days - 1), end_date)
         s_str = curr_start.strftime("%Y-%m-%d")
         e_str = curr_end.strftime("%Y-%m-%d")
+        range_start_dt = f"{s_str} 00:00"
+        range_end_dt = f"{e_str} 23:59"
 
-        success = False
-        for base_url in API_URLS:
-            url = f"{base_url}?date_start={s_str}&date_end={e_str}"
-            try:
-                response = requests.get(url, headers=headers, timeout=12)
-                if response.status_code == 200:
-                    data = response.json()
-                    parsed = parse_json_payload(data)
-                    all_lessons.extend(parsed)
-                    logging.info(
-                        f"Получено {len(parsed)} занятий на период {s_str} — {e_str}"
-                    )
-                    success = True
-                    break
-                else:
-                    logging.warning(
-                        f"Эндпоинт {url} вернул HTTP {response.status_code}"
-                    )
-            except Exception as e:
-                logging.error(f"Ошибка запроса {url}: {e}")
+        chunk_lessons = None
+        for attempt in range(2):
+            for base_url in API_URLS:
+                url = f"{base_url}?date_start={s_str}&date_end={e_str}"
+                try:
+                    response = requests.get(url, headers=headers, timeout=25)
+                    if response.status_code == 200:
+                        data = response.json()
+                        chunk_lessons = parse_json_payload(data)
+                        logging.info(
+                            f"Получено {len(chunk_lessons)} занятий на период {s_str} — {e_str}"
+                        )
+                        break
+                    else:
+                        logging.warning(f"Эндпоинт {url} вернул HTTP {response.status_code}")
+                except Exception as e:
+                    logging.warning(f"Попытка {attempt + 1}: ошибка запроса к {url}: {e}")
 
-        if not success:
-            logging.warning(f"Не удалось получить расписание на период {s_str} — {e_str}")
+            if chunk_lessons is not None:
+                break
+            time.sleep(2)
+
+        if chunk_lessons is not None:
+            # Синхронизируем ТОЛЬКО этот успешно полученный диапазон
+            changed = manager.sync_lessons(
+                chunk_lessons,
+                range_start_dt=range_start_dt,
+                range_end_dt=range_end_dt,
+            )
+            if changed:
+                any_changes = True
+        else:
+            logging.error(
+                f"Не удалось получить расписание для {s_str} — {e_str}. "
+                f"Старые данные в базе для этого периода СОХРАНЕНЫ без удаления."
+            )
 
         curr_start = curr_end + timedelta(days=1)
 
-    return all_lessons
+    return any_changes
 
 
 def main():
@@ -461,24 +485,12 @@ def main():
     start_date = today - timedelta(days=days_behind)
     end_date = today + timedelta(days=days_ahead)
 
-    range_start_dt = f"{start_date.strftime('%Y-%m-%d')} 00:00"
-    range_end_dt = f"{end_date.strftime('%Y-%m-%d')} 23:59"
-
     logging.info(
-        f"Запуск синхронизации на диапазон: {range_start_dt} — {range_end_dt} (full={args.full})"
+        f"Запуск синхронизации на диапазон: {start_date} — {end_date} (full={args.full})"
     )
 
     manager = ScheduleManager(DB_FILE)
-    lessons = fetch_data_from_api(start_date, end_date)
-
-    if not lessons and not os.path.exists("json_data.json"):
-        logging.warning("Нет свежих данных для синхронизации.")
-        return
-
-    # Синхронизируем базу с удалением отменённых/исчезнувших пар
-    has_changes = manager.sync_lessons(
-        lessons, range_start_dt=range_start_dt, range_end_dt=range_end_dt
-    )
+    sync_date_range(manager, start_date, end_date)
 
     # Пересобираем и обновляем .ics файл
     manager.generate_ics(ICS_FILE)
