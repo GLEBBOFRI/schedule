@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 */6 * * *'  # Запуск каждые 6 часов
   workflow_dispatch:        # Ручной запуск из вкладки Actions
+    inputs:
+      full_sync:
+        description: 'Полная синхронизация на весь семестр (90 дней)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,9 +31,14 @@ jobs:
       - name: Установка зависимостей
         run: pip install -r requirements.txt
 
+      - name: Запуск тестов
+        run: python test_sync.py
+
       - name: Запуск скрипта обновления
         env:
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
           ITMO_REFRESH_TOKEN: ${{ secrets.ITMO_REFRESH_TOKEN }}
+          FULL_SYNC: ${{ github.event.inputs.full_sync }}
         run: python update_schedule.py
 
       - name: Сохранение изменений в репозиторий
@@ -35,5 +46,9 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add schedule_cache.db itmo_schedule.ics || true
-          git commit -m "Auto-update schedule .ics [skip ci]" || exit 0
-          git push origin HEAD:${{ github.ref_name }}
+          if git diff --staged --quiet; then
+            echo "Нет изменений для коммита."
+          else
+            git commit -m "Auto-update schedule .ics [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
