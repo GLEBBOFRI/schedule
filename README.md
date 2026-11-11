@@ -78,7 +78,7 @@ python update_schedule.py --full
 
 Твой календарь публикуется через GitHub Pages по ссылке:
 ```text
-https://glebbofri.github.io/schedule/itmo_schedule.ics
+https://username.github.io/repo/itmo_schedule.ics
 ```
 Для Apple Calendar добавь как подписку (webcal):
 - Открой **Календарь** $\rightarrow$ **Файл** $\rightarrow$ **Новая подписка на календарь...**
