@@ -4746,36 +4746,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Фитнес (кроссфит) (Занятия спортом)
-DTSTART:20261113T113000
-DTEND:20261113T130000
-UID:pair-51099575059@itmo.ru
-DESCRIPTION:Преподаватель: Дорогинский Стани
- слав Вячеславович
-LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. Борц
- овский зал (4506/1)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Завтра пара: Фитнес (кроссфит)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 2 часа: Фитнес (кроссфит)
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 1 час: Фитнес (кроссфит)
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 15 минут: Фитнес (кроссфит)
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Введение в технологическое предпри
  нимательство (Лекции)
 DTSTART:20261114T133000
@@ -4905,68 +4875,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Через 15 минут: Математический ана
  лиз
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Веб-программирование (Лабораторные 
- занятия)
-DTSTART:20261117T153000
-DTEND:20261117T170000
-UID:pair-48797300511@itmo.ru
-DESCRIPTION:Преподаватель: Стригалев Никита С
- ергеевич
-LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Завтра пара: Веб-программирование
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 2 часа: Веб-программирование
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 1 час: Веб-программирование
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 15 минут: Веб-программирован
- ие
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Веб-программирование (Лабораторные 
- занятия)
-DTSTART:20261117T171000
-DTEND:20261117T184000
-UID:pair-48797300561@itmo.ru
-DESCRIPTION:Преподаватель: Стригалев Никита С
- ергеевич
-LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 2113
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Завтра пара: Веб-программирование
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 2 часа: Веб-программирование
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 1 час: Веб-программирование
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 15 минут: Веб-программирован
- ие
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -5156,6 +5064,68 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Через 15 минут: English B1.1 / Английский 
  язык B1.1
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261121T133000
+DTEND:20261121T150000
+UID:pair-53794381955@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1321
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261121T153000
+DTEND:20261121T170000
+UID:pair-53794382097@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1321
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -5485,6 +5455,36 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Волейбол (Занятия спортом)
+DTSTART:20261126T133000
+DTEND:20261126T150000
+UID:pair-51099589108@itmo.ru
+DESCRIPTION:Преподаватель: Платонова Валенти
+ на Александровна
+LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. Боль
+ шой зал (4405)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Волейбол
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Волейбол
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Волейбол
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Волейбол
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Физика (Лекции)
 DTSTART:20261126T153000
 DTEND:20261126T170000
@@ -5607,6 +5607,36 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Через 15 минут: English B1.1 / Английский 
  язык B1.1
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Волейбол (Занятия спортом)
+DTSTART:20261127T113000
+DTEND:20261127T130000
+UID:pair-51099590246@itmo.ru
+DESCRIPTION:Преподаватель: Платонова Валенти
+ на Александровна
+LOCATION:ул.Ломоносова\, д.9\, лит. Б\, ауд. Боль
+ шой зал (4405)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Волейбол
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Волейбол
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Волейбол
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Волейбол
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
