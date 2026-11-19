@@ -5068,6 +5068,74 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261120T081000
+DTEND:20261120T094000
+UID:pair-49076964297@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261120T095000
+DTEND:20261120T112000
+UID:pair-49076964369@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Веб-программирование (Лабораторные 
  занятия)
 DTSTART:20261121T133000
@@ -5191,74 +5259,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Через 15 минут: Математический ана
  лиз
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:English B1.2 / Английский язык B1.2 (Практич
- еские занятия)
-DTSTART:20261123T113000
-DTEND:20261123T130000
-UID:pair-48783604417@itmo.ru
-DESCRIPTION:Преподаватель: Хованцева Анастас
- ия Анатольевна
-LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1415
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Завтра пара: English B1.2 / Английский я
- зык B1.2
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 2 часа: English B1.2 / Английский я
- зык B1.2
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 1 час: English B1.2 / Английский яз
- ык B1.2
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 15 минут: English B1.2 / Английский 
- язык B1.2
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:English B1.2 / Английский язык B1.2 (Практич
- еские занятия)
-DTSTART:20261123T133000
-DTEND:20261123T150000
-UID:pair-48783604466@itmo.ru
-DESCRIPTION:Преподаватель: Хованцева Анастас
- ия Анатольевна
-LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1415
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Завтра пара: English B1.2 / Английский я
- зык B1.2
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 2 часа: English B1.2 / Английский я
- зык B1.2
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 1 час: English B1.2 / Английский яз
- ык B1.2
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 15 минут: English B1.2 / Английский 
- язык B1.2
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -5611,6 +5611,74 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261127T081000
+DTEND:20261127T094000
+UID:pair-49076967154@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English B1.1 / Английский язык B1.1 (Практич
+ еские занятия)
+DTSTART:20261127T095000
+DTEND:20261127T112000
+UID:pair-49076967229@itmo.ru
+DESCRIPTION:Преподаватель: Филатов Андрей Сер
+ геевич
+LOCATION:ул.Ломоносова\, д.9\, лит. Е\, ауд. 3229
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: English B1.1 / Английский я
+ зык B1.1
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: English B1.1 / Английский яз
+ ык B1.1
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: English B1.1 / Английский 
+ язык B1.1
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Волейбол (Занятия спортом)
 DTSTART:20261127T113000
 DTEND:20261127T130000
@@ -5770,74 +5838,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Через 15 минут: Математический ана
  лиз
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:English B1.2 / Английский язык B1.2 (Практич
- еские занятия)
-DTSTART:20261130T113000
-DTEND:20261130T130000
-UID:pair-48783606284@itmo.ru
-DESCRIPTION:Преподаватель: Хованцева Анастас
- ия Анатольевна
-LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1415
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Завтра пара: English B1.2 / Английский я
- зык B1.2
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 2 часа: English B1.2 / Английский я
- зык B1.2
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 1 час: English B1.2 / Английский яз
- ык B1.2
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 15 минут: English B1.2 / Английский 
- язык B1.2
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:English B1.2 / Английский язык B1.2 (Практич
- еские занятия)
-DTSTART:20261130T133000
-DTEND:20261130T150000
-UID:pair-48783606332@itmo.ru
-DESCRIPTION:Преподаватель: Хованцева Анастас
- ия Анатольевна
-LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1415
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Завтра пара: English B1.2 / Английский я
- зык B1.2
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 2 часа: English B1.2 / Английский я
- зык B1.2
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 1 час: English B1.2 / Английский яз
- ык B1.2
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Через 15 минут: English B1.2 / Английский 
- язык B1.2
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
