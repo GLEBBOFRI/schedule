@@ -6001,6 +6001,68 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261205T133000
+DTEND:20261205T150000
+UID:pair-53794399480@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1321
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Веб-программирование (Лабораторные 
+ занятия)
+DTSTART:20261205T153000
+DTEND:20261205T170000
+UID:pair-53794399624@itmo.ru
+DESCRIPTION:Преподаватель: Стригалев Никита С
+ ергеевич
+LOCATION:Кронверкский пр.\, д.49\, лит.А\, ауд. 1321
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Завтра пара: Веб-программирование
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 2 часа: Веб-программирование
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 1 час: Веб-программирование
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Через 15 минут: Веб-программирован
+ ие
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Математический анализ (Лекции)
 DTSTART:20261207T081000
 DTEND:20261207T094000
